@@ -13,7 +13,7 @@ function AddWorker({ setShowAddWorker }) {
             setShowAddWorker(false);
           }}
         >
-          <img src="/public/imgs/exitModal.svg" alt="" />
+          <img src="/imgs/exitModal.svg" alt="" />
         </button>
         <h3>Hodim qo’shish</h3>
         <form onSubmit={handleSubmit} action="">
