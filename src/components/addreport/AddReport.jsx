@@ -11,7 +11,7 @@ function AddReport({ setShowAdd }) {
         <button onClick={()=>{
           setShowAdd(false)
         }} >
-          <img src="/public/imgs/exitModal.svg" alt="" />
+          <img src="/imgs/exitModal.svg" alt="" />
         </button>
         <form onSubmit={handleSubmit} action="">
           <input type="text" placeholder="Mijoz ismi :" />
