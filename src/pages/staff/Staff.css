@@ -1,0 +1,136 @@
+.staff .container nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.mainLogo img {
+    width: 140px;
+}
+
+.staff .container nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+}
+
+.mainLinks a,
+.mainLinks select,
+.mainLinks button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #F3F3F3;
+    color: black;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    gap: 15px;
+}
+
+.staff .mainLinks .btn {
+    background-color: #7798F6;
+    color: white;
+}
+
+.staff .mainLinks .btn img {
+    width: 18px;
+}
+
+.mainLinks a img {
+    width: 20px;
+}
+
+.controll {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.controll button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #F3F3F3;
+    color: black;
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 15px;
+    gap: 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.controll .btn {
+    background-color: #7798F6;
+    color: white;
+}
+
+.controllBtn.active {
+    border: 2px solid #7798F6;
+}
+
+
+.worker {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 5px 20px;
+    background-color: white;
+    border: 2px solid #C7C7C7;
+    box-shadow: 0px 2px 10px 0px hsla(0, 0%, 0%, 0.149);
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.worker>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 40px;
+    border-left: 2px solid #C7C7C7;
+    border-right: 2px solid #C7C7C7;
+    margin: 10px 0px;
+}
+.worker>div:nth-child(1){
+    border-left: none;
+    padding-left: 0px;
+}
+.worker>div:nth-child(7) {
+    border-right: none;
+}
+
+.worker>div button{
+    width: 26px;
+    height: 26px;
+    border: none;
+    background-color: #EBEBEB;
+    font-size: 18px;
+}
+
+
+.workerEdit {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    background-color: #7798F6;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.workerEdit img{
+    width: 20px;
+}
